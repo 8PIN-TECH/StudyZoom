@@ -8,4 +8,4 @@ def main_page():
     return "This is main page!!"
 
 if __name__ == '__main__':
-    app.ren(host='자신의 IP',port=5000)
+    app.run(host='자신의 IP',port=5000)
